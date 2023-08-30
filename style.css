@@ -1,0 +1,118 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(180deg, #65736e 0, #586d68 12.5%, #496763 25%, #37605d 37.5%, #1f5959 50%, #005156 62.5%, #004a54 75%, #004453 87.5%, #003d52 100%);
+    width: 100vw;
+    color: rgb(0, 0, 0);
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login {
+    background-color: white;
+    width: 350px;
+    height: 600px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+#p1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+#iconuser {
+    margin-top: 6px;
+}
+
+
+#p3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: dm sans;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: poppins;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+p {
+    font-family: dm sans;
+    font-size: 15px;
+}
+
+label {
+    font-family: dm sans;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+input {
+    margin: 7px 0px;
+}
+
+#log, #senha {
+    border-radius: 12px;
+    border: none;
+    width: 260px;
+    height: 50px;
+    background-color: #BDBDBD;
+    color: black;
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+#logar {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 260px;
+    height: 47px;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#logar:hover {
+    background-color: rgba(98, 133, 148, 0.863);
+    border: none;
+    box-shadow: 0 0 8px 4px #508e9156;
+    color: white;
+}
+
+::-webkit-input-placeholder { 
+    color:rgba(112, 112, 112, 0.349); 
+}

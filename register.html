@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div id="p1">
+                <h1>Cadastre-se</h1>
+                <p>Já registrado? <a href="index.html">Entre aqui</a></p>
+            </div>
+
+            <div id="p2">
+                <form action="" method="post">
+                    <div class="input-label"><label class="labels" for="nome">NOME COMPLETO</label><br></div>   
+                    <div class="input-label"><input class="campos" type="text" name="" id="nome" required placeholder="Nome completo"><br></div>
+
+                    <div class="input-label"><label class="labels" for="nascimento">DATA DE NASCIMENTO</label></div>
+                    <div class="input-label"><input class="campos" placeholder="Data de nascimento" type="text" id="nascimento" onfocus="(this.type = 'date')" required ><br></div>
+
+                    <div class="input-label"><label class="labels" for="">GÊNERO</label><br></div>
+                    <div class="input-label-generos">
+                        <div class="generos">
+                            <input type="radio" name="genero" id="feminino">
+                            <label for="feminino">Feminino</label>
+                        </div>
+                        <div class="generos">
+                            <input type="radio" name="genero" id="masculino">
+                            <label for="masculino">Masculino</label>
+                        </div>
+                        <div class="generos">
+                            <input type="radio" name="genero" id="outro">
+                            <label for="outro">Outro</label><br>
+                        </div> 
+                    </div>
+
+                    <div class="conjunto">
+                        <div class="subconjunto">
+                            <div class="input-label"><label class="labels" for="matricula">MATRÍCULA</label><br></div>
+                            <div class="input-label"><input type="text" name="" id="matricula" placeholder="Matrícula" required><br></div>
+                        </div>
+                        <div class="subconjunto">
+                            <div class="input-label"><label class="labels" for="curso">CURSO</label><br></div>
+                            <div class="input-label">
+                                <select name="" id="curso" required>
+                                    <option value=""></option>
+                                    <option value="ENGELE">Engenharia Elétrica</option>
+                                    <option value="ENGMEC">Engenharia Mecânica</option>
+                                    <option value="FIS">Física</option>
+                                    <option value="MAT">Matemática</option>
+                                    <option value="MECINDUS">Mecatrônica Industrial</option>
+                                    <option value="SI">Sistemas de Informação</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="input-label"><label class="labels" for="email">EMAIL</label><br></div>
+                    <input class="campos" type="email" name="" id="email" placeholder="Email" required><br>
+
+                    <div class="input-label"><label class="labels" for="senha">SENHA</label><br></div>
+                    <div class="input-label"><input class="campos" type="password" name="" id="senha" placeholder="Senha" required><br></div>
+
+                    <div id="check">
+                        <div class="check2">
+                            <input type="checkbox" name="" id="leitura" required>
+                            <label for="leitura" class="checkbox">Eu li os termos</label>
+                        </div>
+                        
+                        <div class="check2">
+                            <input type="checkbox" name="" id="termos" required>
+                            <label for="termos" class="checkbox">Eu concordo com os termos</label>
+                        </div>
+                    </div>
+                    
+                    <div class="input-label"><input type="submit" value="Cadastrar-se" id="botao"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
