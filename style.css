@@ -85,7 +85,7 @@ input {
     border-radius: 12px;
     border: none;
     width: 260px;
-    height: 50px;
+    height: 40px;
     background-color: #BDBDBD;
     color: black;
     font-family: poppins;
@@ -100,7 +100,7 @@ input {
     border-radius: 12px;
     border: 2px solid rgb(0, 0, 0);
     width: 260px;
-    height: 47px;
+    height: 40px;
     font-family: poppins;
     font-weight: 500;
     font-size: 12px;
@@ -115,5 +115,5 @@ input {
 }
 
 ::-webkit-input-placeholder { 
-    color:rgba(112, 112, 112, 0.349); 
+    color:rgba(255, 255, 255, 0.466); 
 }
