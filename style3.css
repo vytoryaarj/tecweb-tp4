@@ -25,7 +25,7 @@ main {
 section {
     background-color: white;
     width: 350px;
-    height: 600px;
+    height: 640px;
     border-radius: 60px;
     display: flex;
     flex-direction: column;
@@ -88,7 +88,7 @@ input {
     border-radius: 12px;
     border: none;
     width: 260px;
-    height: 30px;
+    height: 40px;
     background-color: #BDBDBD;
     color: black;
     font-family: poppins;
@@ -101,7 +101,7 @@ input {
     border-radius: 12px;
     border: none;
     width: 120px;
-    height: 30px;
+    height: 40px;
     background-color: #BDBDBD;
     color: black;
     font-family: poppins;
@@ -114,7 +114,7 @@ input {
     border-radius: 12px;
     border: none;
     width: 132px;
-    height: 30px;
+    height: 40px;
     background-color: #BDBDBD;
     font-family: poppins;
     font-size: 12px;
@@ -135,7 +135,7 @@ input {
     border-radius: 12px;
     border: 2px solid rgb(0, 0, 0);
     width: 272px;
-    height: 47px;
+    height: 40px;
     font-family: poppins;
     font-weight: 500;
     font-size: 12px;
@@ -164,5 +164,5 @@ input {
 }
 
 ::-webkit-input-placeholder {
-    color:rgba(112, 112, 112, 0.349); 
+    color:rgba(255, 255, 255, 0.466); 
 }
